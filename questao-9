@@ -1,0 +1,15 @@
+/* 9. Faça um algoritmo que calcule e apresente o valor do volume de uma lata de óleo, dado
+seu raio e sua altura */
+
+#include <stdio.h>
+int main(){
+    float raio, altura, volume;
+    printf("Informe o raio e a altura da lata de oleo: ");
+    scanf("%f %f", &raio, &altura);
+    
+    volume = 3.14 * (raio*raio) *altura;
+    
+    printf("Volume da lata de oleo: %.2f", volume);
+    
+    return 0;
+}
